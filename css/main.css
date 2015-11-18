@@ -1,0 +1,243 @@
+/**************************************************
+General
+**************************************************/
+body {
+  font-family:'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/**************************************************
+Heading
+**************************************************/
+header{
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+#logo h1 {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 0.8em;
+  margin: 0 0 10px;
+  padding: 15px 0 0;
+}
+
+#logo h2 {
+ font-size: 1.5em;
+ font-weight:normal;
+}
+
+/**************************************************
+Navigation
+**************************************************/
+nav{
+  text-align: center;
+  padding: 5px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a{
+  font-weight: 800;
+  padding: 10px 10px;
+}
+
+
+/**************************************************
+Main
+**************************************************/
+main{
+  margin: 0 auto;
+  padding: 0 5%;
+  max-width: 80%;
+}
+
+#Me {
+  text-align: center;
+  padding:30px 0 0;
+  font-family: 'Raleway',sans-serif;
+}
+
+#Me img{
+  border-radius: 50%;
+  width: 50%;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+#Me h1{
+
+margin-top: 20px;
+font-size: 2em;
+font-weight: normal;
+text-align: center;
+}
+
+#Me h2{
+font-size: 1.25em;
+font-weight: normal;
+}
+
+#Me ul{
+
+}
+
+#projects {
+  text-align: center;
+}
+
+#info {
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+#info h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Raleway',sans-serif;
+}
+
+#info ol {
+  margin: 40px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #c0392b;
+  border-top: 2px solid #c0392b;
+}
+
+#info p {
+  text-align: justify;
+  margin: 0 10%;
+}
+
+#emailaddress {
+  margin: 0 auto;
+  text-align: center;
+}
+
+1
+
+
+/**************************************************
+Footer
+**************************************************/
+footer {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  border-top: 2px solid #c0392b;
+  width: 75%;
+}
+
+
+
+/**************************************************
+Color
+**************************************************/
+
+
+header{
+  background-color: #e74c3c;
+}
+
+nav{
+  background-color: #c0392b;
+}
+
+header a, header a:visited{
+  color: #fff;
+}
+
+nav li a:hover{
+  color: #B80000;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  transition: background-color .2s linear, color 0.2s linear;
+  -webkit-transition:background-color .2s linear, color 0.2s linear;
+  -moz-transition:color 1s ease;
+  -o-transition: color 1s ease;
+}
+
+#projects a, #projects a:visited {
+  color: #D91E18;
+}
+
+#projects a:hover {
+  color: #B80000;
+}
+
+#info {
+  color: #fff;
+  background-color: #45423c;
+}
+
+#info a {
+  color: #e74c3c;
+}
+
+#info a:hover {
+  color: #B80000;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/**************************************************
+Media Queries
+**************************************************/
+@media (max-width: 460px) {
+  nav {
+    font-size: .75em;
+  }
+  nav li {
+    margin: 5px;
+  }
+
+  #logo h1{
+    font-size: 1.25em;
+  }
+
+  #logo h2 {
+    font-size: .9em;
+  }
+
+  #Me h1 {
+    font-size: 1.25em;
+  }
+
+  #Me h2 {
+    font-size: 1em;
+  }
+
+  #info h3 {
+    font-size: 1.25em;
+  }
+
+  #info ol li {
+    font-size: .9em;
+  }
+
+  #info p {
+    font-size: .9em;
+  }
+
+}
