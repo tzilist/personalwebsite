@@ -129,7 +129,7 @@ font-weight: normal;
   font-size: .9em;
 }
 
-.frntpage #justified {
+.frntpage #currentideas {
   text-align: justify;
 }
 
@@ -221,14 +221,14 @@ Media Queries
 
 
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 950px){
   #Me img{
     border-radius: 50%;
     width: 100%;
   }
 
   header {
-    display: inline-block;
+    display: block;
     background-color: #c0392b;
     height: 150px;
     margin-bottom: 80px;
@@ -258,16 +258,17 @@ Media Queries
   main {
     display: inline-block;
     clear: both;
-    margin: 0 10%;
-    padding: 0;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 0 5%;
   }
 
   #Me {
-    display: block;
     float: left;
-    width: 27.333%;
-    margin: 0 2.5%;
+    max-width: 25%;
+    margin: 0 3.125% 0 6.25%;
     box-sizing: border-box;
+    padding: 10px 20px;
   }
 
   #Me h1 {
@@ -275,10 +276,9 @@ Media Queries
   }
 
   #info {
-    display: block;
     float: left;
-    width: 27.333%;
-    margin: 0 auto;
+    max-width: 25%;
+    margin: 0 3.125%;
   }
 
 
@@ -287,21 +287,26 @@ Media Queries
   }
 
   .frntpage ol li {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .frntpage p {
     font-size: 1.1em;
   }
 
-  #cprojects {
-    float: right;
-    display: block;
-    width: 27.333%;
-    margin: 0 2.5%;
+  .frntpage  #currentideas {
+    text-align: center;
   }
 
+  #cprojects {
+    float: left;
+    max-width: 25%;
+    margin: 0 6.25% 0 3.125%;
+  }
 
+  #Me, #cprojects, #info {
+    box-sizing: border-box;
+  }
   footer {
     padding-top: 50px;
     clear: both;
