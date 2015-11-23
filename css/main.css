@@ -146,7 +146,7 @@ font-weight: normal;
   margin-top: 20px;
 }
 
-.window {
+.window, .picwindow{
   border-radius: 20px;
   box-shadow: 10px 10px 25px -3px rgba(0, 0, 0, 0.8);
   border-right: 3px solid #292724;
@@ -156,7 +156,7 @@ font-weight: normal;
   padding: 3% 2%;
 }
 
-.window img {
+.picwindow img {
   width: 80%;
 }
 
@@ -242,10 +242,19 @@ body {
   border-radius: 5px;
 }
 
-.window {
+.window, .picwindow {
   background-color: #45423c;
 }
 
+.window a, .window a:visited {
+  color: #D91E18;
+}
+
+.window a:hover {
+  color: #B80000;
+  background-color: #fff;
+  border-radius: 5px;
+}
 
 /**************************************************
 Media Queries
@@ -342,6 +351,20 @@ Media Queries
     clear: left;
   }
 
+  .window {
+    float: left;
+    width: 40%;
+    height: 175px;
+  }
 
+  #window1, #window2{
+    margin: 0 2.5% 30px 2.5%;
+  }
+
+  .picwindow {
+    clear: left;
+    width: 60%;
+    margin: 0 auto;
+  }
 
 }
