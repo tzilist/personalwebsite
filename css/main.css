@@ -146,16 +146,12 @@ font-weight: normal;
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
 /**************************************************
 About
 **************************************************/
 
 
 .window {
-=======
-.window, .picwindow{
->>>>>>> 5d68e8a1cb04045e55e28bf6023b80e17e20b9d2
   border-radius: 20px;
   box-shadow: 10px 10px 25px -3px rgba(0, 0, 0, 0.8);
   border-right: 3px solid #292724;
@@ -165,15 +161,12 @@ About
   padding: 3% 2%;
 }
 
-<<<<<<< HEAD
 .picwindow{
   margin: 30px 0;
   text-align: center;
   padding: 3% 2%;
 }
 
-=======
->>>>>>> 5d68e8a1cb04045e55e28bf6023b80e17e20b9d2
 .picwindow img {
   width: 80%;
 }
@@ -286,7 +279,7 @@ body {
   border-radius: 5px;
 }
 
-.window, .picwindow {
+.window {
   background-color: #45423c;
 }
 
@@ -402,7 +395,6 @@ Media Queries
     clear: left;
   }
 
-<<<<<<< HEAD
   .flex{
     display: flex;
   }
@@ -411,18 +403,11 @@ Media Queries
     float: left;
     width: 40%;
     flex: 1;
-=======
-  .window {
-    float: left;
-    width: 40%;
-    height: 175px;
->>>>>>> 5d68e8a1cb04045e55e28bf6023b80e17e20b9d2
   }
 
   #window1, #window2{
     margin: 0 2.5% 30px 2.5%;
   }
-<<<<<<< HEAD
 
   .picwindow {
     clear: left;
@@ -450,13 +435,6 @@ Media Queries
     min-height: 120px;
     margin: 10px 0;
   }
-=======
->>>>>>> 5d68e8a1cb04045e55e28bf6023b80e17e20b9d2
 
-  .picwindow {
-    clear: left;
-    width: 60%;
-    margin: 0 auto;
-  }
 
 }
