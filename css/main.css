@@ -224,8 +224,12 @@ nav{
   background-color: #c0392b;
 }
 
-header, #headplate, #headplate a:visited, main, footer{
+header, #headplate, #headplate a:visited{
   color: #fff;
+}
+
+main, footer{
+  color: #45423c;
 }
 
 nav li a {
@@ -235,7 +239,7 @@ nav li a {
 }
 
 .selected {
-  background-color: #524e47;
+  background-color: #B80000;
   color: #fff;
   box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.5)
 }
@@ -253,7 +257,7 @@ nav li a:hover{
 }
 
 body {
-  background-color: #e74c3c;
+  background-color: #F7F4E6;
 }
 
 #projects a, #projects a:visited {
@@ -265,7 +269,7 @@ body {
 }
 
 .frntpage {
-  color: #fff;
+  color: #F7F4E6;
   background-color: #45423c;
 }
 
@@ -281,6 +285,7 @@ body {
 
 .window {
   background-color: #45423c;
+  color: #F7F4E6;
 }
 
 .window a, .window a:visited {
@@ -431,8 +436,8 @@ Media Queries
   }
 
   #contactstyle img {
-    min-width: 120px;
-    min-height: 120px;
+    max-width: 100px;
+    max-height: 100px;
     margin: 10px 0;
   }
 
